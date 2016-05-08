@@ -41,7 +41,7 @@
         var threshold = parseInt(thresholdInput.value);
         var ranges = createRanges(threshold, threads);
 
-        threading.poolSize(threads);
+        threading.pool(threads);
 
         var startTime = Date.now();
 
